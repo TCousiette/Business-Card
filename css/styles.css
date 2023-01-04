@@ -203,7 +203,7 @@ img {vertical-align: middle;}
 .prev, .next {
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: 400px;
   width: auto;
   padding: 16px;
   margin-top: -22px;
@@ -231,6 +231,10 @@ img {vertical-align: middle;}
   background-color: rgba(0,0,0,0.8);
 }
 
+.hobbypic{
+  max-height: 800px;
+}
+
 /* Caption text */
 .text {
   color: #ffffff;
@@ -240,6 +244,7 @@ img {vertical-align: middle;}
   bottom: 15px;
   width: 100%;
   text-align: center;
+  background-color: rgba(0,0,0,0.5);
 }
 
 /* Number text (1/3 etc) */
@@ -282,3 +287,4 @@ img {vertical-align: middle;}
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
+
