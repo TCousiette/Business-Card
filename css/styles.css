@@ -33,7 +33,7 @@ hr {
   border: dotted #b1b1b1 6px;
   border-bottom: none;
   width: 10%;
-  margin: 100px auto;
+  margin: 250px auto;
 }
 
 a{
@@ -290,4 +290,9 @@ img {vertical-align: middle;}
 
 .firstpic{
   display: block;
+}
+
+.ed-img{
+  max-height: 300px;
+  max-width: 300px;
 }
