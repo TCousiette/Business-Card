@@ -30,9 +30,9 @@ p {
 }
 
 hr {
-  border: dotted #EAF6F6 6px;
+  border: dotted #b1b1b1 6px;
   border-bottom: none;
-  width: 4%;
+  width: 10%;
   margin: 100px auto;
 }
 
@@ -288,3 +288,6 @@ img {vertical-align: middle;}
   .prev, .next,.text {font-size: 11px}
 }
 
+.firstpic{
+  display: block;
+}
