@@ -33,7 +33,7 @@ hr {
   border: dotted #b1b1b1 6px;
   border-bottom: none;
   width: 10%;
-  margin: 250px auto;
+  margin: 200px auto;
 }
 
 a{
@@ -295,4 +295,17 @@ img {vertical-align: middle;}
 .ed-img{
   max-height: 300px;
   max-width: 300px;
+}
+
+.header-link{
+  color: rgba(0,0,0,0.5) ;
+  margin: 0px;
+  font-weight: 900;
+  font-family: 'Merriweather', serif;
+text-decoration: underline;
+
+}
+
+.header-link:hover{
+  color: #0c686b;
 }
