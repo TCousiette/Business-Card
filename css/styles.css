@@ -310,3 +310,9 @@ text-decoration: underline;
 .header-link:hover{
   color: #0c686b;
 }
+
+.exp-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: center;
+}
