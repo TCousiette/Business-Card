@@ -8,9 +8,22 @@
   <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento" rel="stylesheet">
   <link rel="icon" href="favicon.ico">
   <script src="app.js"></script>
+  <script src="lodash.js"></script>
 </head>
 
 <body>
+
+  <nav id="main-nav">
+    <a href="#skills">My Skills</a>
+    <a href="#education">My Education</a>
+    <!--<a href="#work">My Work Experience</a>-->
+    <a href="#hobbies">My Hobbies</a>
+    <a href="#contacts">My Contacts</a>
+
+  </nav>
+
+
+  
   <div class="top-container">
     <img class="top-cloud" src="images/cloud.png" alt="cloud">
     <div class="title-text">
@@ -32,7 +45,7 @@
     <hr>
 
     <!-- Here are skills -->
-    <div class="skills">
+    <div id="skills" class="skills">
       <h2>My Skills</h2>
       <div class="skill-row">
         <img class="erp-img ed-img" src="images/erp.png" alt="erp-img">
@@ -59,7 +72,7 @@
     <hr>
 
     <!-- Education is here -->
-    <div class="skills">
+    <div id="education" class="skills">
       <h2>Education and Courses</h2>
       <div class="skill-row">
         <a href="https://www.lab.fi/en"><img class="lab-img ed-img" src="images/lab.png" alt="lab-img"></a>
@@ -105,10 +118,39 @@
 
     <hr>
     
+<<<<<<< Updated upstream
+=======
+<!-- My work experience is here-->
+
+<!-- <h2>My Work Experience</h2>
+<div id="work" class="workexp">
+  <div class="exp-row">
+<h3>Procurement Specialist, Rus-Motors (Atyrau, Kazakhstan) 2020-2022</h3>
+<p> I was the first person on this position in the company and my main big task wast to
+  establish an efficient supply chain that would allow company to purchase goods from abroad in 
+  short peridods of time for a good price.
+<br>
+  I started my work form sourcing: finding suppliers, evaluating them and negotiating contract terms.
+As soon as our companies came to an agreement we started the work.
+<br>
+First order was relatively small but it was also the toughest one since I had to learn by doing. I have made some mistakes 
+but I also figured out how to avoid these mistakes in the future. 
+<br>
+Later, I came up with an idea how to shorten customs procedures time by 1-2 weeks and quite soon 
+the whole supply chain was running like clockwork.  
+</p>
+</div>
+</div>
+
+<hr>
+
+-->
+
+>>>>>>> Stashed changes
     <!-- Carousel starts here -->
-    <h2>My hobbies and Interests</h2>
+    <h2>My Hobbies and Interests</h2>
 <!-- Slideshow container -->
-<div class="slideshow-container">
+<div id="hobbies"class="slideshow-container">
 
   <!-- Full-width images with number and caption text -->
   <div class="firstpic mySlides fade">
@@ -176,7 +218,7 @@
     
 
     <!-- Contacts -->
-    <div class="contact-me">
+    <div id="contacts" class="contact-me">
       <h2>Get In Touch</h2>
       
       <p class="contact-message">Do you have any additional questions? Do not hesitate to ask them via email - I'd be glad to answer them!</p>
