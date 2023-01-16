@@ -310,8 +310,7 @@ text-decoration: underline;
 
 .header-link:hover{
   color: #0c686b;
-<<<<<<< Updated upstream
-=======
+
 }
 
 .exp-row {
@@ -353,5 +352,4 @@ nav a.active {
 
 nav a:hover {
   text-decoration: underline;
->>>>>>> Stashed changes
 }
